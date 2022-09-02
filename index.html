@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/a0bce63c81.js" crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+
+  <body>
+  <!-- dialogBox add message bottom -->
+  <div id="confirmation" class="modal-container">
+    <div id="modal" class="modal">
+      <i onclick="onCancel()" class="fa-solid fa-xmark fa-xl close-btn"></i>
+      <textarea class="dialog-input-message" id="dialog-input-messageid" name="name" rows="8" cols="80" placeholder="Write message here..."></textarea>
+      <button onclick="addTask()" class="close-dialog-btn" id="dialog-send-btnid" type="submit" name="button">Send</button>
+    </div>
+  </div>
+
+  <!-- dialogBox add message top -->
+    <div id="blur" class="container">
+      <header>
+        <div class="hcontent">
+          <div class="hcontent-left">
+            <i class="fa fa-bars fa-xl"></i>
+            <p>Portfolio</p>
+            <div class="searchbox-div">
+              <input class="search-box" type="text" name="" value="" placeholder="Search">
+              <div class="search-icon-div">
+                <i class="fa fa-search search-icon"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="hcontent-right">
+              <i class="fa-regular fa-moon fa-lg moon"></i>
+              <i class="fa fa-plus fa-lg plus"></i>
+              <i class="fa-regular fa-bell fa-lg bell"></i>
+              <button class="profile-btn" type="button" name="button">
+                <img src="https://assets.codepen.io/3306515/IMG_2025.jpg" alt="img not loaded">
+                <span>Developer</span>
+              </button>
+          </div>
+        </div>
+      </header>
+      <div class="base-container">
+        <div class="leftdiv">
+          <div class="content">
+            <div class="housediv">
+              <i class="fa fa-house fa-xl house"></i>
+            </div>
+            <i class="fa fa-hard-drive fa-xl hard"></i>
+            <i class="fa-solid fa-calendar fa-xl calendar"></i>
+            <i class="fa-solid fa-gear fa-xl gear"></i>
+          </div>
+
+        </div>
+        <div class="centerdiv">
+          <div class="top-txt">
+            <span class="title">Projects</span>
+            <span class="date">15 August 2022</span>
+          </div>
+          <div class="progress-and-view">
+            <div class="progress-div">
+              <div class="in-progress">
+                <span class="number">45</span>
+                <span class="title">In Progress</span>
+              </div>
+              <div class="upcoming">
+                <span class="number">24</span>
+                <span class="title">Upcoming</span>
+              </div>
+              <div class="Total-project">
+                <span class="number">62</span>
+                <span class="title">Total Projects</span>
+              </div>
+            </div>
+            <div class="view-div">
+              <div class="row">
+                <i class="fa-solid fa-ellipsis-vertical fa-xl row-icon"></i>
+              </div>
+              <div class="column">
+                <i class="fa-solid fa-ellipsis fa-xl column-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="all-box-div">
+            <div class="box-lt">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">Web Designing</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">60%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="60" max="100">60%</progress>
+                  </div>
+                  <div class="subdiv-div">
+
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-ct">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">Testing</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">50%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="50" max="100">50%</progress>
+                  </div>
+                  <div class="subdiv-div">
+
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-rt">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">Svg Animations</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">80%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="80" max="100">80%</progress>
+                  </div>
+                  <div class="subdiv-div">
+
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-lb">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">UI Development</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">20%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="20" max="100">20%</progress>
+                  </div>
+                  <div class="subdiv-div">
+
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="box-cb">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">Data Analysis</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">60%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="60" max="100">60%</progress>
+                  </div>
+                  <div class="subdiv-div">
+
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="box-rb">
+              <div class="box-content">
+                <div class="date-and-menu">
+                  <span class="date"> August 13, 2022</span>
+                  <i class="fa-solid fa-ellipsis-vertical fa-lg menu"></i>
+                </div>
+                <div class="title-div">
+                  <span class="title">Data Analysis</span>
+                  <span class="subtitle">Prototyping</span>
+                </div>
+                <div class="progressbar-div">
+                  <div class="progressbar-txt">
+                    <span class="title-pbar">Progress</span>
+                    <span class="progress-percent">60%</span>
+                  </div>
+                  <div class="progressbar">
+                    <progress value="60" max="100">60%</progress>
+                  </div>
+                  <div class="subdiv-div">
+                    <div class="participants">
+
+                      <img class="firstimg" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;q=80" alt="participant">
+                      <img class="secoendimg" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="participant">
+                      <button  class="add-participants" type="button" name="button">
+                        <i class="fa fa-plus fa-sm plus"></i>
+                      </button>
+                      <div class="days-right-div">
+                        <span>2 Days Left</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+          </div>
+        </div>
+        <div class="rightdiv">
+          <div class="rightdiv-content">
+            <div class="rightdiv-titlediv">
+              <span class="clientmessage">Client Messages</span>
+              <i id="add-message-btnid" class="fa-solid fa-square-plus fa-2xl" onclick="onAdd()"></i>
+            </div>
+            <div id="messages" class="messages">
+              <div class="message-box"
+              data-long-press-delay
+              onmousedown="handleOnMouseDown()"
+              onmouseup="handleOnMouseUp()"
+              ontouchstart="handleOnTouchStart()"
+              ontouchend="handleOnTouchEnd()">
+                  <img class="client-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="">
+                  <div class="message-header-div">
+                    <div class="message-header-div-content">
+                      <div class="client-name-div">
+                        <span class="client-name">Amir Shakouri</span>
+                      </div>
+                      <div class="star-div">
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                    <span class="message-line">adsnp asas s s s. ss. s s s s s s s. s s s s. s s s s s. s s s s s s. s s s s s. s   ss. s s s s s s s s s s s s s s s s. s s s s s s s s. s s s s s s s. s s s s s s. s s s. s. s s s s. s s s s. s s </span>
+                    <span class="date-message">Aug, 16</span>
+                  </div>
+              </div>
+              <div class="message-box">
+                  <img class="client-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="">
+                  <div class="message-header-div">
+                    <div class="message-header-div-content">
+                      <div class="client-name-div">
+                        <span class="client-name">Amir Shakouri</span>
+                      </div>
+                      <div class="star-div">
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                    <span class="message-line">Hey, can tell me about progress of project? I'm waiting for your response.</span>
+                    <span class="date-message">Aug, 16</span>
+                  </div>
+              </div>
+              <div class="message-box">
+                  <img class="client-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="">
+                  <div class="message-header-div">
+                    <div class="message-header-div-content">
+                      <div class="client-name-div">
+                        <span class="client-name">Amir Shakouri</span>
+                      </div>
+                      <div class="star-div">
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                    <span class="message-line">Awesome! 🤩 I like it. We can schedule a meeting for the next one.</span>
+                    <span class="date-message">Aug, 15</span>
+                  </div>
+              </div>
+              <div class="message-box">
+                  <img class="client-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="">
+                  <div class="message-header-div">
+                    <div class="message-header-div-content">
+                      <div class="client-name-div">
+                        <span class="client-name">Amir Shakouri</span>
+                      </div>
+                      <div class="star-div">
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                    <span class="message-line">I am really impressed! Can't wait to see the final result.😍</span>
+                    <span class="date-message">Aug, 14</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+<script src="app.js"></script>
+</html>

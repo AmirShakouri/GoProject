@@ -1,0 +1,571 @@
+@font-face {
+  font-family: "DM-bold";
+  src: url("../fonts/DMSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DM-bold-italic";
+  src: url("../fonts/DMSans-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DM-italic";
+  src: url("../fonts/DMSans-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DM-medium";
+  src: url("../fonts/DMSans-medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DM-medium-italic";
+  src: url("../fonts/DMSans-mediumItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DM-Regular";
+  src: url("../fonts/DMSans-Regular.ttf") format("truetype"); }
+
+.container .base-container .leftdiv .content .calendar, .container .base-container .leftdiv .content .gear {
+  margin: 7vh 0 0 0; }
+
+.container .base-container .centerdiv .progress-and-view .progress-div .in-progress, .container .base-container .centerdiv .progress-and-view .progress-div .upcoming, .container .base-container .centerdiv .progress-and-view .progress-div .Total-project {
+  display: flex;
+  flex-direction: column; }
+
+.container .base-container .centerdiv .progress-and-view .progress-div .in-progress .number, .container .base-container .centerdiv .progress-and-view .progress-div .upcoming .number, .container .base-container .centerdiv .progress-and-view .progress-div .Total-project .number {
+  font-family: DM-bold;
+  font-size: 25px; }
+
+.container .base-container .centerdiv .progress-and-view .progress-div .in-progress .title, .container .base-container .centerdiv .progress-and-view .progress-div .upcoming .title, .container .base-container .centerdiv .progress-and-view .progress-div .Total-project .title {
+  font-family: DM-Regular;
+  color: #4a4a4a; }
+
+.container .base-container .centerdiv .all-box-div .box-lt, .container .base-container .centerdiv .all-box-div .box-ct, .container .base-container .centerdiv .all-box-div .box-rt, .container .base-container .centerdiv .all-box-div .box-lb, .container .base-container .centerdiv .all-box-div .box-cb, .container .base-container .centerdiv .all-box-div .box-rb {
+  width: 31%;
+  border-radius: 25px;
+  margin: 8px; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .date-and-menu, .container .base-container .centerdiv .all-box-div .box-ct .box-content .date-and-menu, .container .base-container .centerdiv .all-box-div .box-rt .box-content .date-and-menu, .container .base-container .centerdiv .all-box-div .box-lb .box-content .date-and-menu, .container .base-container .centerdiv .all-box-div .box-cb .box-content .date-and-menu, .container .base-container .centerdiv .all-box-div .box-rb .box-content .date-and-menu {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  text-align: center; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .date-and-menu .menu, .container .base-container .centerdiv .all-box-div .box-ct .box-content .date-and-menu .menu, .container .base-container .centerdiv .all-box-div .box-rt .box-content .date-and-menu .menu, .container .base-container .centerdiv .all-box-div .box-lb .box-content .date-and-menu .menu, .container .base-container .centerdiv .all-box-div .box-cb .box-content .date-and-menu .menu, .container .base-container .centerdiv .all-box-div .box-rb .box-content .date-and-menu .menu {
+  padding-top: 0.7vh;
+  color: #373737; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .date-and-menu .date, .container .base-container .centerdiv .all-box-div .box-ct .box-content .date-and-menu .date, .container .base-container .centerdiv .all-box-div .box-rt .box-content .date-and-menu .date, .container .base-container .centerdiv .all-box-div .box-lb .box-content .date-and-menu .date, .container .base-container .centerdiv .all-box-div .box-cb .box-content .date-and-menu .date, .container .base-container .centerdiv .all-box-div .box-rb .box-content .date-and-menu .date {
+  font-family: DM-Regular;
+  color: #787878; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .title-div, .container .base-container .centerdiv .all-box-div .box-ct .box-content .title-div, .container .base-container .centerdiv .all-box-div .box-rt .box-content .title-div, .container .base-container .centerdiv .all-box-div .box-lb .box-content .title-div, .container .base-container .centerdiv .all-box-div .box-cb .box-content .title-div, .container .base-container .centerdiv .all-box-div .box-rb .box-content .title-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .title-div .subtitle, .container .base-container .centerdiv .all-box-div .box-ct .box-content .title-div .subtitle, .container .base-container .centerdiv .all-box-div .box-rt .box-content .title-div .subtitle, .container .base-container .centerdiv .all-box-div .box-lb .box-content .title-div .subtitle, .container .base-container .centerdiv .all-box-div .box-cb .box-content .title-div .subtitle, .container .base-container .centerdiv .all-box-div .box-rb .box-content .title-div .subtitle {
+  font-family: DM-Regular;
+  color: #525252;
+  font-size: 14px;
+  padding-top: 5px; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar-txt, .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar-txt, .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar-txt, .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar-txt, .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar-txt, .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar-txt {
+  display: flex;
+  justify-content: space-between; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar progress, .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar progress, .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar progress, .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar progress, .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar progress, .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar progress {
+  width: 100%;
+  border: 0;
+  display: block;
+  height: 5px; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .firstimg, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .firstimg, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .firstimg, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .firstimg, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .firstimg, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .firstimg {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+  vertical-align: middle; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .secoendimg, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .secoendimg, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .secoendimg, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .secoendimg, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .secoendimg, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .secoendimg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 1vh;
+  border-radius: 100%;
+  object-fit: cover;
+  vertical-align: middle; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .add-participants, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .add-participants, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .add-participants, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .add-participants, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .add-participants, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .add-participants {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: relative;
+  right: 0.5vh; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .days-right-div, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .days-right-div, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .days-right-div, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .days-right-div, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .days-right-div, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .days-right-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 37%;
+  height: 2vh;
+  border-radius: 20px; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .days-right-div span, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .days-right-div span, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .days-right-div span, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .days-right-div span, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .days-right-div span, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .days-right-div span {
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  font-family: DM-medium; }
+
+.container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div, .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div, .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div, .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div, .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div, .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div {
+  border-top: 1px solid white;
+  margin: 20px -1.5vh 0 -1.5vh; }
+
+.container .rightdiv .rightdiv-content .messages .message-box {
+  border-top: 1px solid #e3e3e3;
+  padding: 16px;
+  margin: 0 -24px 0 -24px;
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  transition: opacity 500ms; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .client-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .message-header-div {
+  width: 100%;
+  padding-left: 16px; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .message-header-div .message-header-div-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .message-header-div .message-header-div-content .client-name-div .client-name {
+  font-family: DM-medium;
+  font-size: 18px; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .message-line {
+  font-family: DM-Regular;
+  padding-top: 16px;
+  opacity: 0.7;
+  width: 100%; }
+
+.container .rightdiv .rightdiv-content .messages .message-box .date-message {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.7;
+  font-family: DM-Regular; }
+
+* {
+  font-family: "DM-medium";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.modal-container {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s cubic-bezier(1, 0, 0, 1); }
+  .modal-container .modal {
+    padding: 20px;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 0 0 5px #cfcfcf;
+    background-color: #f3f7fd;
+    transition: 0.3s cubic-bezier(1, 0, 0, 1); }
+    .modal-container .modal .close-btn {
+      align-self: flex-end;
+      cursor: pointer; }
+    .modal-container .modal .dialog-input-message {
+      border: none;
+      overflow: auto;
+      outline: none;
+      resize: none;
+      box-shadow: none;
+      margin-top: 5%;
+      padding: 10px;
+      width: 85%;
+      height: 50%;
+      border-radius: 15px; }
+    .modal-container .modal .close-dialog-btn {
+      width: 40%;
+      height: 20%;
+      font-size: 22px;
+      font-family: DM-medium;
+      border-radius: 15px;
+      background-color: black;
+      color: white;
+      margin-top: 5%;
+      cursor: pointer; }
+
+.modal-open {
+  opacity: 1;
+  visibility: visible; }
+
+.container {
+  background-color: #f3f7fd;
+  width: 100%;
+  height: 100vh; }
+  .container header {
+    padding: 2vh; }
+    .container header .hcontent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .container header .hcontent .hcontent-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.6vh; }
+        .container header .hcontent .hcontent-left i {
+          display: inline-block;
+          vertical-align: middle; }
+        .container header .hcontent .hcontent-left p {
+          padding-left: 2vh;
+          display: inline-block; }
+        .container header .hcontent .hcontent-left .searchbox-div {
+          width: 33vh;
+          margin-left: 1vh;
+          display: flex;
+          align-items: center;
+          box-shadow: 0px 0px 5px 0px #cfcfcf;
+          border-radius: 20px;
+          background: #fff; }
+          .container header .hcontent .hcontent-left .searchbox-div .search-box {
+            vertical-align: middle;
+            position: relative;
+            width: 30vh;
+            height: 3.5vh;
+            background: #fff;
+            margin-left: 1vh;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px; }
+          .container header .hcontent .hcontent-left .searchbox-div .search-icon-div {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 3vh;
+            height: 3.5vh;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px; }
+            .container header .hcontent .hcontent-left .searchbox-div .search-icon-div .search-icon {
+              position: absolute;
+              top: 50%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+      .container header .hcontent .hcontent-right {
+        display: flex;
+        align-items: center; }
+        .container header .hcontent .hcontent-right .moon {
+          padding-right: 1vh; }
+        .container header .hcontent .hcontent-right .plus {
+          padding-right: 1vh; }
+        .container header .hcontent .hcontent-right .bell {
+          padding-right: 2vh; }
+        .container header .hcontent .hcontent-right .profile-btn {
+          background: transparent;
+          display: flex;
+          align-items: center;
+          border-left: 2px solid #e3e3e3; }
+          .container header .hcontent .hcontent-right .profile-btn span {
+            padding-left: 1vh; }
+          .container header .hcontent .hcontent-right .profile-btn img {
+            width: 32px;
+            height: 32px;
+            margin-left: 2vh;
+            border-radius: 100%; }
+  .container .base-container {
+    display: flex;
+    flex-direction: row; }
+    .container .base-container .leftdiv {
+      width: 4.5%;
+      height: 30%; }
+      .container .base-container .leftdiv .content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .container .base-container .leftdiv .content .housediv {
+          width: 45px;
+          height: 45px;
+          background: black;
+          border-radius: 100%;
+          margin-top: 5vh; }
+          .container .base-container .leftdiv .content .housediv .house {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: white; }
+        .container .base-container .leftdiv .content .hard {
+          padding: 6vh 0 0 0; }
+    .container .base-container .centerdiv {
+      width: 60%;
+      height: 100%;
+      background: white;
+      border-radius: 20px;
+      padding: 2vh; }
+      .container .base-container .centerdiv .top-txt {
+        display: flex;
+        justify-content: space-between; }
+        .container .base-container .centerdiv .top-txt .title {
+          font-family: DM-bold;
+          font-size: 22px; }
+        .container .base-container .centerdiv .top-txt .date {
+          font-family: DM-medium;
+          font-size: 20px; }
+      .container .base-container .centerdiv .progress-and-view {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3vh; }
+        .container .base-container .centerdiv .progress-and-view .progress-div {
+          display: flex;
+          justify-content: center; }
+          .container .base-container .centerdiv .progress-and-view .progress-div .upcoming {
+            padding-left: 3vh; }
+          .container .base-container .centerdiv .progress-and-view .progress-div .Total-project {
+            padding-left: 3vh; }
+        .container .base-container .centerdiv .progress-and-view .view-div {
+          display: flex;
+          justify-content: center; }
+          .container .base-container .centerdiv .progress-and-view .view-div .row {
+            width: 40px;
+            height: 40px;
+            background: white;
+            color: black;
+            border-radius: 4px;
+            padding-right: 2vh; }
+            .container .base-container .centerdiv .progress-and-view .view-div .row .row-icon {
+              display: flex;
+              justify-content: center;
+              margin-top: 20px; }
+          .container .base-container .centerdiv .progress-and-view .view-div .column {
+            width: 40px;
+            height: 40px;
+            background: black;
+            color: white;
+            border-radius: 4px; }
+            .container .base-container .centerdiv .progress-and-view .view-div .column .column-icon {
+              display: flex;
+              justify-content: center;
+              margin-top: 20px; }
+      .container .base-container .centerdiv .all-box-div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 2vh; }
+        .container .base-container .centerdiv .all-box-div .box-lt {
+          background: #fee4cb; }
+          .container .base-container .centerdiv .all-box-div .box-lt .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-lt .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-lt .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: orange;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .add-participants {
+                background: #fff4ea; }
+                .container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #ff942e; }
+              .container .base-container .centerdiv .all-box-div .box-lt .box-content .subdiv-div .participants .days-right-div {
+                background: #fff4ea;
+                color: #ff942e; }
+        .container .base-container .centerdiv .all-box-div .box-ct {
+          background: #e9e7fd; }
+          .container .base-container .centerdiv .all-box-div .box-ct .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-ct .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-ct .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: #4f3ff1;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .add-participants {
+                background: #f7f5fe; }
+                .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #4f3ff1; }
+              .container .base-container .centerdiv .all-box-div .box-ct .box-content .subdiv-div .participants .days-right-div {
+                background: #f7f5fe;
+                color: #4f3ff1; }
+        .container .base-container .centerdiv .all-box-div .box-rt {
+          background: #dbf6fe; }
+          .container .base-container .centerdiv .all-box-div .box-rt .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-rt .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-rt .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: #086d86;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .add-participants {
+                background: #f1fcfe; }
+                .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #086d86; }
+              .container .base-container .centerdiv .all-box-div .box-rt .box-content .subdiv-div .participants .days-right-div {
+                background: #f1fcfe;
+                color: #086d86; }
+        .container .base-container .centerdiv .all-box-div .box-lb {
+          background: #ffd3e2; }
+          .container .base-container .centerdiv .all-box-div .box-lb .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-lb .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-lb .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: #df3670;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .add-participants {
+                background: #ffeef3; }
+                .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #df3670; }
+              .container .base-container .centerdiv .all-box-div .box-lb .box-content .subdiv-div .participants .days-right-div {
+                background: #ffeef3;
+                color: #df3670; }
+        .container .base-container .centerdiv .all-box-div .box-cb {
+          background: #c8f7dc; }
+          .container .base-container .centerdiv .all-box-div .box-cb .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-cb .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-cb .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: #33c471;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .add-participants {
+                background: #e9fcf1; }
+                .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #33c471; }
+              .container .base-container .centerdiv .all-box-div .box-cb .box-content .subdiv-div .participants .days-right-div {
+                background: #e9fcf1;
+                color: #33c471; }
+        .container .base-container .centerdiv .all-box-div .box-rb {
+          background: #d5deff; }
+          .container .base-container .centerdiv .all-box-div .box-rb .box-content {
+            padding: 1.5vh; }
+            .container .base-container .centerdiv .all-box-div .box-rb .box-content .title-div .title {
+              color: #373737; }
+            .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar-txt .title-pbar {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar-txt .progress-percent {
+              font-size: 14px; }
+            .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar {
+              padding-top: 0.7vh; }
+              .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar progress::-webkit-progress-bar {
+                background-color: white;
+                border-radius: 10px; }
+              .container .base-container .centerdiv .all-box-div .box-rb .box-content .progressbar-div .progressbar progress::-webkit-progress-value {
+                background: #4067f9;
+                border-radius: 10px; }
+            .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants {
+              padding: 3vh 1.5vh 0 1.5vh; }
+              .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .add-participants {
+                background: #eef2ff; }
+                .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .add-participants .plus {
+                  color: #4067f9; }
+              .container .base-container .centerdiv .all-box-div .box-rb .box-content .subdiv-div .participants .days-right-div {
+                background: #eef2ff;
+                color: #4067f9; }
+  .container .rightdiv {
+    width: 33%;
+    height: 100%;
+    background: white;
+    border-radius: 20px;
+    margin-left: 24px; }
+    .container .rightdiv .rightdiv-content {
+      padding: 24px; }
+      .container .rightdiv .rightdiv-content .rightdiv-titlediv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .container .rightdiv .rightdiv-content .rightdiv-titlediv .clientmessage {
+          font-family: DM-bold;
+          font-size: 24px; }
+        .container .rightdiv .rightdiv-content .rightdiv-titlediv #add-message-btnid {
+          cursor: pointer;
+          padding: 0;
+          margin: 0; }
+      .container .rightdiv .rightdiv-content .messages .message-box:nth-child(1) {
+        margin-top: 5.5%; }
+      .container .rightdiv .rightdiv-content .messages .message-created {
+        opacity: 0;
+        transition: opacity 1s; }

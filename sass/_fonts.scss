@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "DM-bold";
+    src: url("../fonts/DMSans-Bold.ttf") format("truetype");
+}
+$font-family-DM-bold : "DM-bold";
+
+@font-face {
+  font-family: "DM-bold-italic";
+  src: url("../fonts/DMSans-BoldItalic.ttf") format("truetype");
+}
+$font-family-DM-bold-italic: "DM-bold-italic";
+
+@font-face {
+  font-family: "DM-italic";
+  src: url("../fonts/DMSans-Italic.ttf") format("truetype");
+}
+$font-family-DM-italic: "DM-italic";
+
+@font-face {
+  font-family: "DM-medium";
+  src: url("../fonts/DMSans-medium.ttf") format("truetype");
+}
+$font-family-DM-medium: "DM-medium";
+
+@font-face {
+  font-family: "DM-medium-italic";
+  src: url("../fonts/DMSans-mediumItalic.ttf") format("truetype");
+}
+$font-family-DM-medium-italic: "DM-medium-italic";
+
+@font-face {
+  font-family: "DM-Regular";
+  src: url("../fonts/DMSans-Regular.ttf") format("truetype");
+}
+$font-family-DM-Regular: "DM-Regular";

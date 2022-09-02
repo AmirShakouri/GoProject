@@ -1,0 +1,160 @@
+%lefticon {
+  margin: 7vh 0 0 0;
+}
+%progressdiv {
+  display: flex;
+  flex-direction: column;
+}
+%progressdiv-number {
+  font-family: DM-bold;
+  font-size: 25px;
+}
+%progressdiv-title {
+  font-family: DM-Regular;
+  color: #4a4a4a;
+}
+
+//box model down
+%box-creating {
+  width: 31%;
+  // height: auto;
+  border-radius: 25px;
+  margin: 8px;
+}
+%date-and-menu {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  text-align: center;
+}
+%menu {
+  padding-top: 0.7vh;
+  color: #373737;
+}
+%date {
+  font-family: DM-Regular;
+  color: #787878;
+}
+%title-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+%subtitle {
+  font-family: DM-Regular;
+  color: #525252;
+  font-size: 14px;
+  padding-top: 5px;
+}
+%progressbar-txt {
+  display: flex;
+  justify-content: space-between;
+}
+%progress{
+  width: 100%;
+  border: 0;
+  display: block;
+  height: 5px;
+}
+%justborder {
+  width: 317.14px;
+  display: table;
+  position: relative;
+  overflow: hidden;
+  right: 15px;
+  bottom: 1.5vh;
+  border-top: 1px solid white;
+}
+%firstimg {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+%secoendimg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 1vh;
+  border-radius: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+%addpartici{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: relative;
+  right: 0.5vh;
+}
+%daysrightdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 37%;
+  height: 2vh;
+
+  border-radius: 20px;
+}
+%daysrightdiv-span {
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  font-family: DM-medium;
+}
+%subdiv-div {
+  border-top: 1px solid white;
+  margin: 20px -1.5vh 0 -1.5vh;
+}
+//box model top
+
+//message box model down
+%message-box {
+  border-top: 1px solid #e3e3e3;
+  padding: 16px;
+  margin: 0 -24px 0 -24px;
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  transition: opacity 500ms;
+  // will-change: opacity;
+}
+%clientimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+%message-header-div {
+  width: 100%;
+  padding-left: 16px;
+}
+%message-header-div-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+%client-name {
+  font-family: DM-medium;
+  font-size: 18px;
+}
+%message-line {
+  font-family: DM-Regular;
+  padding-top: 16px;
+  opacity: 0.7;
+  width: 100%;
+
+}
+%date-message{
+  display: flex;
+  justify-content: flex-end;
+  // padding-top: 16px;
+  opacity: 0.7;
+  font-family: DM-Regular;
+}
+//message box model top
